@@ -13,7 +13,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
 
-public class Main extends JavaPlugin implements Listener, CommandExecutor {
+public class OpVerify extends JavaPlugin implements Listener, CommandExecutor {
 
     private ArrayList<String> opplayer;
     private String verifymsg = ChatColor.YELLOW + "[OP VERIFY] " + ChatColor.GREEN + " /verify (pin) ";
